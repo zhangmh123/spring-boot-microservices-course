@@ -6,8 +6,6 @@ on:
       - catalog-service/**
     branches:
       - 'master'
-  pull_request:
-    branches: [master]
 
 jobs:
   build:
